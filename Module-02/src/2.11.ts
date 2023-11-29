@@ -32,7 +32,7 @@
   };
   //   person1.name = "Rahman"; // not possible
 
-  // Record
+  // Record -> generic of object
   //   type MyObj = {
   //     a: string;
   //     b: string;
