@@ -16,7 +16,27 @@
     return sum;
   };
 
-  console.log(addFunction(3, 4));
+  //   console.log(addFunction(3, 4));
+
+  // Can you give an example of how to use "readonly" properties in TypeScript?
+  class Student {
+    readonly id: number;
+    name: string;
+
+    constructor(code: number, name: string) {
+      this.id = code;
+      this.name = name;
+    }
+  }
+
+  let student1 = new Student(189, "Rahat");
+  // student1.id = 55; // it is nor possible, as it is readonly property.
+  student1.name = "Rahman"; // it is possible
+
+  // union type example
+  let something: string | number;
+  something = "yes";
+  something = 180;
 
   //
 }

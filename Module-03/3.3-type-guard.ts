@@ -4,7 +4,10 @@
 
   type Alpaneumeric = string | number;
 
-  const add = (param1: Alpaneumeric, param2: Alpaneumeric): Alpaneumeric => {
+  const add = (
+    param1: string | number,
+    param2: string | number
+  ): string | number => {
     if (typeof param1 === "number" && typeof param2 === "number") {
       return param1 + param2;
     } else {
