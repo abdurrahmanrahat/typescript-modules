@@ -45,5 +45,5 @@
 
   getUser(adminUser);
 
-  //
+  // ------------------- Understand type guard with type of and in
 }

@@ -31,7 +31,7 @@
     role: "manager",
   };
 
-  // Interface যেহেতু object নিয়ে কাজ করে, আর Java Script এ array আর ফাংশন ও object, তাই interface ওদের ক্ষেত্রে ও কাজ করে।
+  // Interface যেহেতু object নিয়ে কাজ করে, আর JavaScript এ array আর ফাংশন ও object, তাই interface ওদের ক্ষেত্রে ও কাজ করে।
 
   // array with interface
   type Roll1 = number[];
