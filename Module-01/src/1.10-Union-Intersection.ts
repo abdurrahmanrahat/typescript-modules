@@ -1,21 +1,25 @@
 {
   // -------------Union and Intersection types--------- //
+
   // Union type
-  //   type FrontedDeveloper = "fakibazDeveloper" | "juniorDeveloper";
-  //   type FullStackDeveloper = "FrontedDeveloper" | "FullStackDeveloper";
-  //   type Developer = FrontedDeveloper | FullStackDeveloper;
-  //   const newDeveloper: FrontedDeveloper = "fakibazDeveloper";
-  //   type User = {
-  //     name: string;
-  //     email?: string;
-  //     gender: "male" | "female";
-  //     blood: "O+" | "O-" | "A+" | "A-";
-  //   };
-  //   const user1: User = {
-  //     name: "rahat",
-  //     gender: "male",
-  //     blood: "O+",
-  //   };
+  /* 
+    type FrontedDeveloper = "fakibazDeveloper" | "juniorDeveloper";
+    type FullStackDeveloper = "FrontedDeveloper" | "FullStackDeveloper";
+    type Developer = FrontedDeveloper | FullStackDeveloper;
+    const newDeveloper: FrontedDeveloper = "fakibazDeveloper";
+
+    type User = {
+      name: string;
+      email?: string;
+      gender: "male" | "female";
+      blood: "O+" | "O-" | "A+" | "A-";
+    };
+    const user1: User = {
+      name: "rahat",
+      gender: "male",
+      blood: "O+",
+    };
+  */
 
   // Intersection types
 
